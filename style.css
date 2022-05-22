@@ -29,7 +29,7 @@
 .content hr {
     border: none;
     height: 6px;
-    max-width: 280px;
+    max-width: 20%;
     margin-top: 8px;
     background: #ffa1a1;
 }
@@ -95,5 +95,22 @@ h1 {
  right: 0;
  top: 0;
  cursor: pointer;
- z-index: 1;
+ 
+}
+
+@media screen and (max-width:760px) {
+    .btn{
+        width: 100px;
+    }
+    .content{
+        width: 90%;
+    }
+    .sidebar {
+        width: 30%;
+    }
+    h1 {
+        font-size: 150px;
+        line-height: 8rem;
+    }
+   
 }
